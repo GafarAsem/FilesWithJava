@@ -10,7 +10,7 @@ public class Main {
 
     public static void main(String[] args) throws IOException {
 
-        File file = new File("C:\\Users\\DELL\\IdeaProjects\\FilesWithJava\\src\\hello.txt");
+        File file = new File("hello.txt");
         if(!file.exists()){
             file.createNewFile();
         }
